@@ -1,0 +1,72 @@
+GENERACION 50
+Current generation (200 pop)
+fitness -> mean:2.5913496515848067, max:4.006971401649378, min:-1.0
+lift -> mean:0.23125770546133817, max:1.2166295966058849, min:0.0
+support -> mean:2.183198032772803e-05, max:0.00019731331744088655, min:0.0
+fisher -> mean:0.16001985692419132, max:1.0, min:7.010516154850785e-82
+	['80-90', 'renta_alta', 'FIX', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:4.006971401649378, lift:0.2495650454576174, fisher:7.916433746020771e-17,precedent_support:39personas (2.617e-05), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'coste_tarifa_media', 'MOVISTAR']
+		fitness:4.006971401649378, lift:0.2495650454576174, fisher:7.916433746020771e-17,precedent_support:39personas (2.617e-05), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_media', 'MOVISTAR']
+		fitness:4.006971401649378, lift:0.2495650454576174, fisher:7.916433746020771e-17,precedent_support:39personas (2.617e-05), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:4.006971401649378, lift:0.2495650454576174, fisher:7.916433746020771e-17,precedent_support:39personas (2.617e-05), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_media', 'NEW SALE', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:3.6987428322917335, lift:0.27036213257908553, fisher:6.939364992148658e-15,precedent_support:36personas (2.416e-05), appearances: 1
+	['80-90', 'FIX', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:2.62664346061297, lift:0.3807140234276919, fisher:7.010516154850785e-82,precedent_support:294personas (0.00019731), appearances: 1
+	['80-90', 'renta_media', 'FIX', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:2.2871453262480284, lift:0.4372262612802399, fisher:3.42194027602555e-16,precedent_support:64personas (4.295e-05), appearances: 1
+	['80-90', 'renta_media', 'FIX', 'MOVISTAR']
+		fitness:1.812489365111619, lift:0.5517273752049943, fisher:1.582664104606311e-14,precedent_support:86personas (5.772e-05), appearances: 1
+	['70-80', 'renta_alta', 'FIX', 'coste_tarifa_media', 'MOVISTAR']
+		fitness:1.6438857032407705, lift:0.6083147983029424, fisher:3.2412023966194834e-11,precedent_support:82personas (5.503e-05), appearances: 1
+	['80-90', 'fem', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_media', 'MOVISTAR']
+		fitness:-5.410404220122511e-10, lift:0.1431328937183394, fisher:5.410404220122511e-10,precedent_support:17personas (1.141e-05), appearances: 1
+	['80-90', 'renta_baja', 'FIX', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:-1.7378624106141304e-08, lift:0.3548502990100498, fisher:1.7378624106141304e-08,precedent_support:24personas (1.611e-05), appearances: 1
+	['80-90', 'masc', 'renta_alta', 'FIX', 'coste_tarifa_media', 'MOVISTAR']
+		fitness:-2.5387192745804347e-08, lift:0.33180807180160493, fisher:2.5387192745804347e-08,precedent_support:22personas (1.476e-05), appearances: 1
+	['80-90', 'renta_alta', 'MOBILE', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:-2.566305195166509e-06, lift:0.3578322342958485, fisher:2.566305195166509e-06,precedent_support:17personas (1.141e-05), appearances: 1
+	['80-90', 'fem', 'renta_baja', 'FIX', 'coste_tarifa_media', 'MOVISTAR']
+		fitness:-0.000178971391347206, lift:0.0, fisher:0.000178971391347206,precedent_support:5personas (3.36e-06), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_media', 'CROSSELL', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:-0.005645133346498832, lift:0.0, fisher:0.005645133346498832,precedent_support:3personas (2.01e-06), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'coste_tarifa_media', 'CROSSELL', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:-0.005645133346498832, lift:0.0, fisher:0.005645133346498832,precedent_support:3personas (2.01e-06), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja', 'energia']
+		fitness:-0.17805714868014466, lift:0.0, fisher:0.17805714868014466,precedent_support:1personas (6.7e-07), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'coste_tarifa_media', 'YOIGO', 'numero_ventas_baja']
+		fitness:-0.17805714868014466, lift:0.0, fisher:0.17805714868014466,precedent_support:1personas (6.7e-07), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_media', 'NEW SALE', 'VODAFONE ESPAÑA S.A.U-C', 'numero_ventas_baja']
+		fitness:-0.17805714868014466, lift:0.0, fisher:0.17805714868014466,precedent_support:1personas (6.7e-07), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'coste_tarifa_media', 'MOVISTAR', 'energia']
+		fitness:-0.17805714868014466, lift:0.0, fisher:0.17805714868014466,precedent_support:1personas (6.7e-07), appearances: 1
+	['VALLADOLID', '80-90', 'renta_media', 'FIX', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:-0.17805714868014466, lift:0.0, fisher:0.17805714868014466,precedent_support:1personas (6.7e-07), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_media', 'SIMYO', 'numero_ventas_baja', 'alarma']
+		fitness:-1.0, lift:0.0, fisher:1.0,precedent_support:0personas (0.0), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_alta']
+		fitness:-1.0, lift:0.0, fisher:1.0,precedent_support:0personas (0.0), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'coste_tarifa_media', 'UPSELL', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:-1.0, lift:0.0, fisher:1.0,precedent_support:0personas (0.0), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'TARJ12', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:-1.0, lift:0.0, fisher:1.0,precedent_support:0personas (0.0), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_alta', 'MOVISTAR', 'numero_ventas_alta']
+		fitness:-1.0, lift:1.2166295966058849, fisher:1.0,precedent_support:2personas (1.34e-06), appearances: 1
+	['VALLADOLID', '80-90', 'renta_alta', 'FIX', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja', 'energia']
+		fitness:-1.0, lift:0.0, fisher:1.0,precedent_support:0personas (0.0), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'TARJ006G200MR', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:-1.0, lift:0.0, fisher:1.0,precedent_support:0personas (0.0), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'CONTFHER', 'coste_tarifa_baja', 'MOVISTAR', 'numero_ventas_baja']
+		fitness:-1.0, lift:0.0, fisher:1.0,precedent_support:0personas (0.0), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'CONT006GR', 'coste_tarifa_media', 'MOVISTAR']
+		fitness:-1.0, lift:0.0, fisher:1.0,precedent_support:0personas (0.0), appearances: 1
+	['80-90', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja', 'alarma']
+		fitness:-1.0, lift:0.0, fisher:1.0,precedent_support:0personas (0.0), appearances: 1
+	['10-20', 'renta_alta', 'FIX', 'POSTPAID', 'coste_tarifa_media', 'EUSKALTEL', 'numero_ventas_baja']
+		fitness:-1.0, lift:0.0, fisher:1.0,precedent_support:0personas (0.0), appearances: 1
+	['80-90', 'renta_media', 'FIX', 'coste_tarifa_media', 'MOVISTAR', 'numero_ventas_baja', 'DOCTORGOCUSTSVA']
+		fitness:-1.0, lift:1.2166295966058849, fisher:1.0,precedent_support:1personas (6.7e-07), appearances: 1
