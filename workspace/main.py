@@ -4,8 +4,8 @@ import wandb
 import os
 
 file = {
-    1 : "cooked_groceries.csv",
-    2 : "master_beta_faltafinanciacion.csv",
+    1 : "inputs/cooked_groceries.csv",
+    2 : "inputs/master_beta_faltafinanciacion.csv",
 }
 
 
@@ -29,7 +29,7 @@ def prepping_master_beta_faltafinanciacion(file):
 
 if __name__== "__main__":
     ### ------------------ Tuneable
-    file_key = 2
+    file_key = 1
     fitness_function_key = 4
     ### ------------------ HIPERPARÁMETROS
     consequent = "financia"
