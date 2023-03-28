@@ -1,0 +1,1 @@
+{"columns": ["consequent_value", "fitness_function", "generation_size", "num_generations", "seed", "probability_of_zero", "mutation_probability"], "data": [["beef", "composed_fitness_length_fitness", 500, 1000, 43, 0.6, 0.001]]}

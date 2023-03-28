@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/main_apriori.py", line 50, in <module>
+    dealer = apriori(transactions, min_support=.001, min_confidence=.002, min_lift=1.05, verbose=True, createDF=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/apyori_rome.py", line 91, in apriori
+    result = list(apriori_old(transactions, min_support=min_support, min_confidence=min_confidence, min_lift=min_lift))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/apyori.py", line 287, in apriori
+    ordered_statistics = list(
+                         ^^^^^
+  File "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/apyori.py", line 237, in filter_ordered_statistics
+    for ordered_statistic in ordered_statistics:
+  File "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/apyori.py", line 217, in gen_ordered_statistics
+    record.support / transaction_manager.calc_support(items_base))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/apyori.py", line 78, in calc_support
+    indexes = self.__transaction_index_map.get(item)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

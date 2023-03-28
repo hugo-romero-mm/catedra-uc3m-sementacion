@@ -1,0 +1,42 @@
+{
+    "os": "macOS-13.2.1-x86_64-i386-64bit",
+    "python": "3.11.2",
+    "heartbeatAt": "2023-03-27T06:19:59.659693",
+    "startedAt": "2023-03-27T06:19:59.111381",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/main_apriori.py",
+    "codePath": "workspace/main_apriori.py",
+    "git": {
+        "remote": "https://github.com/hugo-romero-mm/catedra-uc3m-sementacion.git",
+        "commit": "ff60171d0cfa62922fb1ca930c3557d7b07ddb66"
+    },
+    "email": "114697825+hugo-romero-mm@users.noreply.github.com",
+    "root": "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion",
+    "host": "MacBook-Pro-de-Hugo.local",
+    "username": "hugoromero",
+    "executable": "/usr/local/opt/python@3.11/bin/python3.11",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2600,
+        "min": 2600,
+        "max": 2600
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600,
+            "min": 2600,
+            "max": 2600
+        }
+    ],
+    "disk": {
+        "total": 233.46913528442383,
+        "used": 8.327072143554688
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

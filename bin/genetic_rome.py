@@ -177,12 +177,16 @@ class Dealer:
         key = tuple(fenotype)
         if key in self.seen_fenotypes:
             return self.seen_fenotypes[key]
-        precedent_set = set(self.df.index)
+        precedent_set = None
         for i in range(len(fenotype)):
             if fenotype[i] != 0:
+                
                 col_name = self.dict_num_col[i]
                 val = self.dicts_num_val[col_name][fenotype[i]]
-                precedent_set = precedent_set.intersection(self.grouped_indexes[col_name][val])
+                if not precedent_set:
+                    precedent_set = self.grouped_indexes[col_name][val]
+                else:
+                    precedent_set = precedent_set.intersection(self.grouped_indexes[col_name][val])
         _a_set = set(self.df.index) - precedent_set
         _ab_set = _a_set.intersection(self.grouped_indexes[self.consequent][self.consequent_value])
         rule_set = precedent_set.intersection(self.grouped_indexes[self.consequent][self.consequent_value])
@@ -314,4 +318,4 @@ if __name__== "__main__":
     transaction_df.drop_duplicates(keep = 'first', subset=["customer_id"], inplace=True)
     transaction_df = transaction_df[columns_to_use]
     d = genetic_mining(transaction_df, min_precedent_support = .01,min_lift = 1.02, consequent = "financia", consequent_value = "financia", seed = seed)
-    d.run(num_generations = 50)
+    d.run(num_generations = 1)

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/main.py", line 68, in <module>
+    d = GeneticDealer(transaction_df, consequent=consequent, consequent_value=consequent_value, seed=seed,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/genetic_dealer.py", line 29, in __init__
+    self.df = reorder_cols(df, consequent)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/genetic_dealer.py", line 16, in reorder_cols
+    columns.remove(consequent)
+ValueError: list.remove(x): x not in list
+Creating dealer...
