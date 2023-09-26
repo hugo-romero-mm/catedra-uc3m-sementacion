@@ -1,1 +1,0 @@
-{"columns": ["Generation", "Best fenotype", "Fitness", "Fisher", "Lift"], "data": [[0, "{POSTPAID,coste_tarifa_alta,financia}", 0.012551348056615457, 1.0, 1.903033443430394], [3, "{financia}", 0.01527838550673478, 1.0, 1.1411333346515824], [4, "{POSTPAID,UPSELL,financia}", 0.018024908502258716, 1.0, 1.7193455127441033]]}
