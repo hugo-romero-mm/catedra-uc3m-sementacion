@@ -1,0 +1,43 @@
+Creating dealer...
+Generating binaries for provincia
+Generating binaries for edad
+Generating binaries for genero
+Generating binaries for renta_bruta_media
+Generating binaries for tipo_servicio
+Generating binaries for tipo_facturacion
+Generating binaries for tarifa_id
+Generating binaries for coste_tarifa
+Generating binaries for tipo_venta
+Generating binaries for operador_portabilidad
+Generating binaries for num_ventas
+Generating binaries for servicios_adicionales
+Generating binaries for financia
+Generating binaries for energia
+Generating binaries for alarma
+Generation 0/99
+Calculating stats took: 17.284240007400513 seconds
+	0/500  0 segundos
+	100/500  2 segundos
+	200/500  4 segundos
+	300/500  6 segundos
+	400/500  8 segundos
+Generation 1/99
+Calculating stats took: 0.042549848556518555 seconds
+	0/500  0 segundos
+	100/500  2 segundos
+	200/500  4 segundos
+	300/500  5 segundos
+	400/500  7 segundos
+Generation 2/99
+Calculating stats took: 0.07084393501281738 seconds
+	0/500  0 segundos
+	100/500  1 segundos
+	200/500  3 segundos
+	300/500  4 segundos
+	400/500  6 segundos
+Generation 3/99
+Calculating stats took: 0.04916214942932129 seconds
+	0/500  0 segundos
+	100/500  1 segundos
+[4mReloaded modules[24m: fitness_functions.fitness_functions, genetic_dealer
+['master_beta_faltafinanciacion3.csv', 'master_beta_faltafinanciacion2.csv', 'master_beta_faltafinanciacion0.csv', 'master_beta_faltafinanciacion1.csv']

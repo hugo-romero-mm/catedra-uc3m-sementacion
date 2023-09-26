@@ -1,0 +1,167 @@
+=== Table Analysis ===
+
+-- General Metadata --
+Number of Rows: 1575060
+Number of Columns: 20
+Column Information:
+Unnamed: 0: int64
+customer_id: int64
+comunidad_autonoma: object
+provincia: object
+edad: object
+genero: object
+renta_bruta_media: object
+tipo_servicio: object
+tipo_facturacion: object
+tarifa_id: object
+coste_tarifa: object
+tipo_venta: object
+operador_portabilidad: object
+num_ventas: object
+alarma: object
+energia: object
+servicios_adicionales: object
+cuota: object
+meses_financiacion: object
+financia: object
+
+-- Descriptive Statistics for String Columns --
+comunidad_autonoma:
+  Most Frequent Value: ANDALUCIA
+  Number of Unique Values: 18
+  Top 5 Most Frequent Values: {'ANDALUCIA': 416100, 'MADRID (COMUNIDAD DE)': 232990, 'COMUNITAT VALENCIANA': 144521, 'GALICIA': 122757, 'CANARIAS': 109117}
+provincia:
+  Most Frequent Value: MADRID
+  Number of Unique Values: 43
+  Top 5 Most Frequent Values: {'MADRID': 232990, 'VALENCIA/VALENCIA': 119697, 'MALAGA': 99903, 'SEVILLA': 90746, 'CADIZ': 72084}
+edad:
+  Most Frequent Value: 40-50
+  Number of Unique Values: 9
+  Top 5 Most Frequent Values: {'40-50': 412794, '30-40': 347526, '50-60': 347155, '60-70': 224456, '70-80': 107747}
+genero:
+  Most Frequent Value: masc
+  Number of Unique Values: 2
+  Top 5 Most Frequent Values: {'masc': 935758, 'fem': 639302}
+renta_bruta_media:
+  Most Frequent Value: renta_media
+  Number of Unique Values: 3
+  Top 5 Most Frequent Values: {'renta_media': 276138, 'renta_baja': 138968, 'renta_alta': 138562}
+tipo_servicio:
+  Most Frequent Value: MOBILE
+  Number of Unique Values: 3
+  Top 5 Most Frequent Values: {'MOBILE': 1153692, 'FIX': 320372, 'FIXandMOBILE': 100996}
+tipo_facturacion:
+  Most Frequent Value: POSTPAID
+  Number of Unique Values: 3
+  Top 5 Most Frequent Values: {'POSTPAID': 1514968, 'PREPAID': 59779, 'PREandPOSTPAID': 313}
+tarifa_id:
+  Most Frequent Value: CONT003GR
+  Number of Unique Values: 98
+  Top 5 Most Frequent Values: {'CONT003GR': 113429, 'CONT040GR': 82848, 'CONT28': 74724, 'CONT006GR': 63484, 'CONT999GR01': 63297}
+coste_tarifa:
+  Most Frequent Value: coste_tarifa_media
+  Number of Unique Values: 3
+  Top 5 Most Frequent Values: {'coste_tarifa_media': 659880, 'coste_tarifa_baja': 475182, 'coste_tarifa_alta': 439998}
+tipo_venta:
+  Most Frequent Value: UPSELL
+  Number of Unique Values: 3
+  Top 5 Most Frequent Values: {'UPSELL': 773661, 'NEW SALE': 207681, 'CROSSELL': 87248}
+operador_portabilidad:
+  Most Frequent Value: VODAFONE
+  Number of Unique Values: 14
+  Top 5 Most Frequent Values: {'VODAFONE': 42934, 'ORANGE': 40995, 'MOVISTAR': 36789, 'MASMOVIL 2': 8098, 'LOWI': 6324}
+num_ventas:
+  Most Frequent Value: numero_ventas_baja
+  Number of Unique Values: 3
+  Top 5 Most Frequent Values: {'numero_ventas_baja': 460701, 'numero_ventas_alta': 308957, 'numero_ventas_media': 298932}
+alarma:
+  Most Frequent Value: alarma
+  Number of Unique Values: 1
+  Top 5 Most Frequent Values: {'alarma': 3685}
+energia:
+  Most Frequent Value: energia
+  Number of Unique Values: 1
+  Top 5 Most Frequent Values: {'energia': 23682}
+servicios_adicionales:
+  Most Frequent Value: HEBECUSTSVA
+  Number of Unique Values: 5
+  Top 5 Most Frequent Values: {'HEBECUSTSVA': 136783, 'DOCTORGOCUSTSVA': 20711, 'HEBECUSTSVA--DOCTORGOCUSTSVA': 3819, 'OTHER_SERVICE': 3343, 'HOMEGOKIT1SVA': 1679}
+cuota:
+  Most Frequent Value: 0
+  Number of Unique Values: 137989
+  Top 5 Most Frequent Values: {'0': 417409, '0--5': 18187, '3--0': 16364, '0--3': 13499, '1--0': 13422}
+meses_financiacion:
+  Most Frequent Value: 0
+  Number of Unique Values: 15
+  Top 5 Most Frequent Values: {'0': 417409, '24': 291711, '24--0': 285060, '0--24': 234459, '24--0--18': 9531}
+financia:
+  Most Frequent Value: financia
+  Number of Unique Values: 1
+  Top 5 Most Frequent Values: {'financia': 1293407}
+
+-- Null Value Counts --
+Unnamed: 0                     0
+customer_id                    0
+comunidad_autonoma             0
+provincia                      0
+edad                           0
+genero                         0
+renta_bruta_media        1021392
+tipo_servicio                  0
+tipo_facturacion               0
+tarifa_id                 110291
+coste_tarifa                   0
+tipo_venta                506470
+operador_portabilidad    1409634
+num_ventas                506470
+alarma                   1571375
+energia                  1551378
+servicios_adicionales    1408725
+cuota                     281653
+meses_financiacion        281653
+financia                  281653
+
+-- Null Value Percentages --
+Unnamed: 0                0.000000
+customer_id               0.000000
+comunidad_autonoma        0.000000
+provincia                 0.000000
+edad                      0.000000
+genero                    0.000000
+renta_bruta_media        64.847815
+tipo_servicio             0.000000
+tipo_facturacion          0.000000
+tarifa_id                 7.002336
+coste_tarifa              0.000000
+tipo_venta               32.155600
+operador_portabilidad    89.497162
+num_ventas               32.155600
+alarma                   99.766041
+energia                  98.496438
+servicios_adicionales    89.439450
+cuota                    17.882049
+meses_financiacion       17.882049
+financia                 17.882049
+
+-- Sample Data --
+         Unnamed: 0  customer_id     comunidad_autonoma          provincia   edad genero renta_bruta_media tipo_servicio tipo_facturacion        tarifa_id        coste_tarifa tipo_venta operador_portabilidad           num_ventas alarma energia servicios_adicionales            cuota meses_financiacion  financia
+435698       435698      7612073  MADRID (COMUNIDAD DE)             MADRID  30-40    fem        renta_alta        MOBILE          PREPAID    TARJ006G200MR   coste_tarifa_baja        NaN                   NaN                  NaN    NaN     NaN                   NaN              NaN                NaN       NaN
+313224       313224      4182322              CATALUNYA             GIRONA  40-50   masc               NaN        MOBILE         POSTPAID           CONT26  coste_tarifa_media        NaN                   NaN                  NaN    NaN     NaN                   NaN              NaN                NaN       NaN
+849037       849037      7126969              ANDALUCIA            CORDOBA  20-30   masc       renta_media  FIXandMOBILE         POSTPAID     CONTFHF030GR   coste_tarifa_alta        NaN                   NaN                  NaN    NaN     NaN                   NaN              NaN                NaN       NaN
+928803       928803      8927559              ANDALUCIA            SEVILLA  50-60   masc        renta_alta           FIX         POSTPAID     CONTFHE040GR   coste_tarifa_alta     UPSELL                   NaN   numero_ventas_baja    NaN     NaN                   NaN                0                  0  financia
+990598       990598      3631968                 ARAGON           ZARAGOZA  30-40   masc        renta_alta           FIX         POSTPAID     CONTFHE008GR  coste_tarifa_media     UPSELL                   NaN  numero_ventas_media    NaN     NaN                   NaN            15--0              24--0  financia
+599236       599236      4962980            EXTREMADURA            CACERES  40-50    fem               NaN        MOBILE         POSTPAID      CONT999GR01  coste_tarifa_media     UPSELL                   NaN  numero_ventas_media    NaN     NaN                   NaN            10--0              0--24  financia
+1305078     1305078      6738352             RIOJA (LA)           LA RIOJA  50-60   masc               NaN        MOBILE         POSTPAID     CONTFHF015GR   coste_tarifa_alta     UPSELL                   NaN   numero_ventas_alta    NaN     NaN                   NaN         3--0--10              0--24  financia
+1150558     1150558      3395628   COMUNITAT VALENCIANA  VALENCIA/VALENCIA  30-40    fem               NaN        MOBILE         POSTPAID           CONT24  coste_tarifa_media        NaN                   NaN                  NaN    NaN     NaN                   NaN            0--22              0--24  financia
+280435       280435      8164149              ANDALUCIA              CADIZ  60-70   masc               NaN        MOBILE         POSTPAID        CONT006GR   coste_tarifa_baja        NaN                   NaN                  NaN    NaN     NaN                   NaN                0                  0  financia
+1158503     1158503      8096736   COMUNITAT VALENCIANA  VALENCIA/VALENCIA  30-40    fem               NaN        MOBILE          PREPAID           TARJ12   coste_tarifa_baja        NaN                   NaN                  NaN    NaN     NaN                   NaN              NaN                NaN       NaN
+857305       857305      9064723              ANDALUCIA            GRANADA  20-30    fem               NaN        MOBILE         POSTPAID           CONT28   coste_tarifa_baja   NEW SALE                ORANGE   numero_ventas_baja    NaN     NaN                   NaN                0                  0  financia
+1245688     1245688      8374378              ANDALUCIA            SEVILLA  30-40    fem       renta_media        MOBILE         POSTPAID        CONT015GR  coste_tarifa_media     UPSELL                   NaN  numero_ventas_media    NaN     NaN                   NaN            25--0              0--24  financia
+1526452     1526452      8554898   COMUNITAT VALENCIANA  VALENCIA/VALENCIA  30-40    fem       renta_media  FIXandMOBILE         POSTPAID  CONTFHC999GTR04   coste_tarifa_alta     UPSELL                   NaN   numero_ventas_alta    NaN     NaN           HEBECUSTSVA  0--3--9--13--10              0--24  financia
+1074666     1074666      7368959               CANARIAS         LAS PALMAS  40-50   masc               NaN        MOBILE         POSTPAID        CONT008GR  coste_tarifa_media        NaN                   NaN                  NaN    NaN     NaN                   NaN              NaN                NaN       NaN
+1098695     1098695      9147359                GALICIA         PONTEVEDRA  30-40    fem               NaN        MOBILE         POSTPAID           CONT28   coste_tarifa_baja   NEW SALE              MOVISTAR   numero_ventas_baja    NaN     NaN                   NaN              NaN                NaN       NaN
+1354228     1354228      8360677              CANTABRIA          CANTABRIA  50-60    fem       renta_media        MOBILE         POSTPAID           CONT15   coste_tarifa_baja     UPSELL                   NaN  numero_ventas_media    NaN     NaN                   NaN              NaN                NaN       NaN
+318840       318840      9272258              CATALUNYA             GIRONA  30-40   masc               NaN           FIX         POSTPAID              NaN  coste_tarifa_media   NEW SALE                   NaN   numero_ventas_baja    NaN     NaN                   NaN                0                  0  financia
+212685       212685      1292960  MADRID (COMUNIDAD DE)             MADRID  50-60   masc       renta_media           FIX         POSTPAID  CONTFHC999GTR04   coste_tarifa_alta        NaN                   NaN                  NaN    NaN     NaN                   NaN             0--8              24--0  financia
+1515961     1515961      8330325   COMUNITAT VALENCIANA  VALENCIA/VALENCIA  30-40   masc        renta_alta           FIX         POSTPAID     CONTFHE003GR  coste_tarifa_media        NaN                   NaN                  NaN    NaN     NaN                   NaN              NaN                NaN       NaN
+280273       280273      6234123              ANDALUCIA              CADIZ  40-50   masc               NaN        MOBILE         POSTPAID        CONT006GR   coste_tarifa_baja     UPSELL                   NaN   numero_ventas_baja    NaN     NaN                   NaN             0--5              24--0  financia

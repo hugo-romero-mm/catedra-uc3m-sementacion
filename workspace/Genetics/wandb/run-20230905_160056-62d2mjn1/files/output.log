@@ -1,0 +1,1416 @@
+Creating dealer...
+Generating binaries for provincia
+Generating binaries for edad
+Generating binaries for genero
+Generating binaries for renta_bruta_media
+Generating binaries for tipo_servicio
+Generating binaries for tipo_facturacion
+Generating binaries for tarifa_id
+Generating binaries for coste_tarifa
+Generating binaries for tipo_venta
+Generating binaries for operador_portabilidad
+Generating binaries for num_ventas
+Generating binaries for alarma
+Generating binaries for servicios_adicionales
+Generating binaries for energia
+Generating binaries for financia
+Generation 0/199
+Calculating stats took: 10.063898086547852 seconds
+	0/500  0 segundos
+	100/500  1 segundos
+	200/500  3 segundos
+	300/500  5 segundos
+	400/500  7 segundos
+Generation 1/199
+Calculating stats took: 0.045519113540649414 seconds
+	0/500  0 segundos
+	100/500  2 segundos
+	200/500  4 segundos
+	300/500  5 segundos
+	400/500  8 segundos
+Generation 2/199
+Calculating stats took: 0.06519222259521484 seconds
+	0/500  0 segundos
+	100/500  1 segundos
+	200/500  3 segundos
+	300/500  4 segundos
+	400/500  6 segundos
+Generation 3/199
+Calculating stats took: 0.05627703666687012 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  1 segundos
+	300/500  2 segundos
+	400/500  2 segundos
+Generation 4/199
+Calculating stats took: 0.019530057907104492 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  1 segundos
+Generation 5/199
+Calculating stats took: 0.02582573890686035 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 6/199
+Calculating stats took: 0.019325733184814453 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 7/199
+Calculating stats took: 0.02161884307861328 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 8/199
+Calculating stats took: 0.0002410411834716797 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 9/199
+Calculating stats took: 0.06639504432678223 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 10/199
+Calculating stats took: 0.11440896987915039 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 11/199
+Calculating stats took: 0.06350231170654297 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 12/199
+Calculating stats took: 0.056899070739746094 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 13/199
+Calculating stats took: 0.018809795379638672 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 14/199
+Calculating stats took: 0.058022260665893555 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 15/199
+Calculating stats took: 0.000225067138671875 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 16/199
+Calculating stats took: 0.06404685974121094 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 17/199
+Calculating stats took: 0.12571191787719727 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 18/199
+Calculating stats took: 0.04050302505493164 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 19/199
+Calculating stats took: 0.038671016693115234 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 20/199
+Calculating stats took: 0.05851578712463379 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 21/199
+Calculating stats took: 0.10237717628479004 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 22/199
+Calculating stats took: 0.03895235061645508 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 23/199
+Calculating stats took: 0.019132137298583984 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 24/199
+Calculating stats took: 0.07901501655578613 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 25/199
+Calculating stats took: 0.03824591636657715 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 26/199
+Calculating stats took: 0.06607198715209961 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 27/199
+Calculating stats took: 0.06631803512573242 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 28/199
+Calculating stats took: 0.019082069396972656 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 29/199
+Calculating stats took: 0.019000768661499023 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 30/199
+Calculating stats took: 0.018973350524902344 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 31/199
+Calculating stats took: 0.023589134216308594 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 32/199
+Calculating stats took: 0.06282901763916016 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 33/199
+Calculating stats took: 0.04422903060913086 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 34/199
+Calculating stats took: 0.06618976593017578 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  1 segundos
+	400/500  1 segundos
+Generation 35/199
+Calculating stats took: 0.07630300521850586 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 36/199
+Calculating stats took: 0.07784199714660645 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 37/199
+Calculating stats took: 0.1300361156463623 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  1 segundos
+	300/500  1 segundos
+	400/500  1 segundos
+Generation 38/199
+Calculating stats took: 0.057154178619384766 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 39/199
+Calculating stats took: 0.12608718872070312 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 40/199
+Calculating stats took: 0.08752107620239258 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 41/199
+Calculating stats took: 0.02520918846130371 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 42/199
+Calculating stats took: 0.025225162506103516 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 43/199
+Calculating stats took: 0.06152534484863281 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 44/199
+Calculating stats took: 0.03948068618774414 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 45/199
+Calculating stats took: 0.000225067138671875 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 46/199
+Calculating stats took: 0.060903072357177734 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 47/199
+Calculating stats took: 0.058629751205444336 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 48/199
+Calculating stats took: 0.019798994064331055 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 49/199
+Calculating stats took: 0.023773193359375 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 50/199
+Calculating stats took: 0.04314279556274414 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 51/199
+Calculating stats took: 0.021614789962768555 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 52/199
+Calculating stats took: 0.0596010684967041 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 53/199
+Calculating stats took: 0.04419827461242676 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 54/199
+Calculating stats took: 0.00022864341735839844 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 55/199
+Calculating stats took: 0.0203857421875 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 56/199
+Calculating stats took: 0.06516408920288086 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 57/199
+Calculating stats took: 0.06344103813171387 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 58/199
+Calculating stats took: 0.09475994110107422 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 59/199
+Calculating stats took: 0.023235797882080078 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 60/199
+Calculating stats took: 0.04529976844787598 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 61/199
+Calculating stats took: 0.04097104072570801 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 62/199
+Calculating stats took: 0.06931495666503906 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 63/199
+Calculating stats took: 0.040872812271118164 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 64/199
+Calculating stats took: 0.09872269630432129 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 65/199
+Calculating stats took: 0.07684803009033203 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 66/199
+Calculating stats took: 0.019032955169677734 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 67/199
+Calculating stats took: 0.038153886795043945 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 68/199
+Calculating stats took: 0.0933082103729248 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 69/199
+Calculating stats took: 0.05701112747192383 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 70/199
+Calculating stats took: 0.07513904571533203 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 71/199
+Calculating stats took: 0.04741716384887695 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 72/199
+Calculating stats took: 0.019620895385742188 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 73/199
+Calculating stats took: 0.021770954132080078 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 74/199
+Calculating stats took: 0.0819239616394043 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 75/199
+Calculating stats took: 0.0192568302154541 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 76/199
+Calculating stats took: 0.04012799263000488 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 77/199
+Calculating stats took: 0.08115887641906738 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 78/199
+Calculating stats took: 0.05696702003479004 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 79/199
+Calculating stats took: 0.03794097900390625 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 80/199
+Calculating stats took: 0.040315866470336914 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 81/199
+Calculating stats took: 0.058474063873291016 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 82/199
+Calculating stats took: 0.020627260208129883 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 83/199
+Calculating stats took: 0.021127939224243164 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 84/199
+Calculating stats took: 0.00023221969604492188 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 85/199
+Calculating stats took: 0.06688189506530762 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 86/199
+Calculating stats took: 0.00023293495178222656 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 87/199
+Calculating stats took: 0.04662823677062988 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 88/199
+Calculating stats took: 0.14641094207763672 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 89/199
+Calculating stats took: 0.06215977668762207 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  1 segundos
+	400/500  1 segundos
+Generation 90/199
+Calculating stats took: 0.020132064819335938 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 91/199
+Calculating stats took: 0.01907181739807129 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 92/199
+Calculating stats took: 0.00019407272338867188 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 93/199
+Calculating stats took: 0.10442495346069336 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  1 segundos
+	400/500  1 segundos
+Generation 94/199
+Calculating stats took: 0.04012608528137207 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 95/199
+Calculating stats took: 0.09046387672424316 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 96/199
+Calculating stats took: 0.0659480094909668 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 97/199
+Calculating stats took: 0.06454706192016602 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 98/199
+Calculating stats took: 0.02200484275817871 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 99/199
+Calculating stats took: 0.021992206573486328 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 100/199
+Calculating stats took: 0.021375179290771484 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 101/199
+Calculating stats took: 0.0609130859375 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 102/199
+Calculating stats took: 0.05769801139831543 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 103/199
+Calculating stats took: 0.09504532814025879 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 104/199
+Calculating stats took: 0.07699418067932129 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 105/199
+Calculating stats took: 0.00024390220642089844 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 106/199
+Calculating stats took: 0.02328014373779297 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 107/199
+Calculating stats took: 0.04833197593688965 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 108/199
+Calculating stats took: 0.04294180870056152 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 109/199
+Calculating stats took: 0.08759593963623047 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 110/199
+Calculating stats took: 0.04460620880126953 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 111/199
+Calculating stats took: 0.04332900047302246 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 112/199
+Calculating stats took: 0.038017988204956055 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 113/199
+Calculating stats took: 0.03928494453430176 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 114/199
+Calculating stats took: 0.03926587104797363 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 115/199
+Calculating stats took: 0.09811091423034668 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 116/199
+Calculating stats took: 0.0001919269561767578 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 117/199
+Calculating stats took: 0.04082322120666504 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 118/199
+Calculating stats took: 0.13324904441833496 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  1 segundos
+	300/500  1 segundos
+	400/500  1 segundos
+Generation 119/199
+Calculating stats took: 0.000286102294921875 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 120/199
+Calculating stats took: 0.027239084243774414 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 121/199
+Calculating stats took: 0.07605338096618652 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 122/199
+Calculating stats took: 0.14548420906066895 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 123/199
+Calculating stats took: 0.14626359939575195 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  1 segundos
+Generation 124/199
+Calculating stats took: 0.00023508071899414062 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 125/199
+Calculating stats took: 0.041260719299316406 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 126/199
+Calculating stats took: 0.00023317337036132812 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 127/199
+Calculating stats took: 0.059667110443115234 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 128/199
+Calculating stats took: 0.020183086395263672 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 129/199
+Calculating stats took: 0.08554530143737793 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  1 segundos
+Generation 130/199
+Calculating stats took: 0.07168793678283691 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 131/199
+Calculating stats took: 0.025111913681030273 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 132/199
+Calculating stats took: 0.05745100975036621 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 133/199
+Calculating stats took: 0.1211700439453125 seconds
+	0/500  0 segundos
+	100/500  1 segundos
+	200/500  1 segundos
+	300/500  2 segundos
+	400/500  2 segundos
+Generation 134/199
+Calculating stats took: 0.0002617835998535156 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 135/199
+Calculating stats took: 0.06862115859985352 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 136/199
+Calculating stats took: 0.0673360824584961 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 137/199
+Calculating stats took: 0.00036406517028808594 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 138/199
+Calculating stats took: 0.04878735542297363 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 139/199
+Calculating stats took: 0.047641754150390625 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 140/199
+Calculating stats took: 0.00023126602172851562 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 141/199
+Calculating stats took: 0.0709381103515625 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 142/199
+Calculating stats took: 0.019751787185668945 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 143/199
+Calculating stats took: 0.13731598854064941 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 144/199
+Calculating stats took: 0.046463966369628906 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 145/199
+Calculating stats took: 0.15009403228759766 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 146/199
+Calculating stats took: 0.02200913429260254 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 147/199
+Calculating stats took: 0.09962296485900879 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 148/199
+Calculating stats took: 0.05037689208984375 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 149/199
+Calculating stats took: 0.08485817909240723 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 150/199
+Calculating stats took: 0.08986496925354004 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 151/199
+Calculating stats took: 0.14872217178344727 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  1 segundos
+	300/500  1 segundos
+	400/500  1 segundos
+Generation 152/199
+Calculating stats took: 0.029026031494140625 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 153/199
+Calculating stats took: 0.06482696533203125 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 154/199
+Calculating stats took: 0.03344368934631348 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 155/199
+Calculating stats took: 0.026388168334960938 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 156/199
+Calculating stats took: 0.1373729705810547 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  1 segundos
+Generation 157/199
+Calculating stats took: 0.06983613967895508 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  1 segundos
+	400/500  1 segundos
+Generation 158/199
+Calculating stats took: 0.04203605651855469 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 159/199
+Calculating stats took: 0.08979988098144531 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 160/199
+Calculating stats took: 0.05593705177307129 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 161/199
+Calculating stats took: 0.1343090534210205 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 162/199
+Calculating stats took: 0.11235308647155762 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 163/199
+Calculating stats took: 0.059387922286987305 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 164/199
+Calculating stats took: 0.040895938873291016 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 165/199
+Calculating stats took: 0.046781301498413086 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 166/199
+Calculating stats took: 0.1093900203704834 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 167/199
+Calculating stats took: 0.06186509132385254 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 168/199
+Calculating stats took: 0.00030803680419921875 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 169/199
+Calculating stats took: 0.07433509826660156 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 170/199
+Calculating stats took: 0.12341713905334473 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 171/199
+Calculating stats took: 0.061371803283691406 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 172/199
+Calculating stats took: 0.08042073249816895 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 173/199
+Calculating stats took: 0.0685579776763916 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 174/199
+Calculating stats took: 0.04635286331176758 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 175/199
+Calculating stats took: 0.02874302864074707 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 176/199
+Calculating stats took: 0.08676409721374512 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 177/199
+Calculating stats took: 0.06890439987182617 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 178/199
+Calculating stats took: 0.10134005546569824 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  1 segundos
+Generation 179/199
+Calculating stats took: 0.046998023986816406 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 180/199
+Calculating stats took: 0.023708820343017578 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 181/199
+Calculating stats took: 0.023440837860107422 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 182/199
+Calculating stats took: 0.09264492988586426 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  1 segundos
+	300/500  1 segundos
+	400/500  1 segundos
+Generation 183/199
+Calculating stats took: 0.02320098876953125 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 184/199
+Calculating stats took: 0.023281097412109375 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 185/199
+Calculating stats took: 0.02930927276611328 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 186/199
+Calculating stats took: 0.09524011611938477 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 187/199
+Calculating stats took: 0.07120609283447266 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 188/199
+Calculating stats took: 0.022504329681396484 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 189/199
+Calculating stats took: 0.0468440055847168 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 190/199
+Calculating stats took: 0.045989036560058594 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 191/199
+Calculating stats took: 0.0232241153717041 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 192/199
+Calculating stats took: 0.04653787612915039 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 193/199
+Calculating stats took: 0.04703569412231445 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 194/199
+Calculating stats took: 0.04829096794128418 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 195/199
+Calculating stats took: 0.04708099365234375 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 196/199
+Calculating stats took: 0.06916522979736328 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 197/199
+Calculating stats took: 0.03920292854309082 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 198/199
+Calculating stats took: 0.06487894058227539 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos
+Generation 199/199
+Calculating stats took: 0.0894169807434082 seconds
+	0/500  0 segundos
+	100/500  0 segundos
+	200/500  0 segundos
+	300/500  0 segundos
+	400/500  0 segundos

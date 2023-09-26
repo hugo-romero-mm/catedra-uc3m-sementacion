@@ -1,0 +1,1 @@
+{"columns": ["consequent_value", "fitness_function", "generation_size", "num_generations", "seed", "probability_of_zero", "mutation_probability"], "data": [["alarma", "lift_fitness", 500, 200, 43, 0.5, 0.005]]}

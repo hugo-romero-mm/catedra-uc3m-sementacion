@@ -1,0 +1,42 @@
+{
+    "os": "macOS-13.5.1-x86_64-i386-64bit",
+    "python": "3.10.10",
+    "heartbeatAt": "2023-09-05T07:54:05.632427",
+    "startedAt": "2023-09-05T07:54:04.482060",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/main.py",
+    "codePath": "workspace/Genetics/main.py",
+    "git": {
+        "remote": "https://github.com/hugo-romero-mm/catedra-uc3m-sementacion.git",
+        "commit": "34c404899dea80d28fabfd21aacfce45e9e44f50"
+    },
+    "email": "114697825+hugo-romero-mm@users.noreply.github.com",
+    "root": "/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion",
+    "host": "MacBook-Pro-de-Hugo.local",
+    "username": "hugoromero",
+    "executable": "/Users/hugoromero/anaconda3/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2600,
+        "min": 2600,
+        "max": 2600
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600,
+            "min": 2600,
+            "max": 2600
+        }
+    ],
+    "disk": {
+        "total": 233.46913528442383,
+        "used": 162.54328536987305
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

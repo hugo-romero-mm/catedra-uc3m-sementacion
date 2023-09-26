@@ -1,0 +1,1210 @@
+2023-09-05 18:18:36,310 INFO    StreamThr :56778 [internal.py:wandb_internal():87] W&B internal server running at pid: 56778, started at: 2023-09-05 18:18:36.301212
+2023-09-05 18:18:36,316 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status
+2023-09-05 18:18:36,320 INFO    WriterThread:56778 [datastore.py:open_for_write():85] open: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/run-f5qq7fnl.wandb
+2023-09-05 18:18:36,326 DEBUG   SenderThread:56778 [sender.py:send():336] send: header
+2023-09-05 18:18:36,345 DEBUG   SenderThread:56778 [sender.py:send():336] send: run
+2023-09-05 18:18:36,881 INFO    SenderThread:56778 [dir_watcher.py:__init__():219] watching files in: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files
+2023-09-05 18:18:36,881 INFO    SenderThread:56778 [sender.py:_start_run_threads():1078] run started: f5qq7fnl with start time 1693930716.27158
+2023-09-05 18:18:36,881 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:18:36,882 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:18:36,884 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: check_version
+2023-09-05 18:18:36,885 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: check_version
+2023-09-05 18:18:36,981 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: run_start
+2023-09-05 18:18:36,986 DEBUG   HandlerThread:56778 [system_info.py:__init__():31] System info init
+2023-09-05 18:18:36,986 DEBUG   HandlerThread:56778 [system_info.py:__init__():46] System info init done
+2023-09-05 18:18:36,986 INFO    HandlerThread:56778 [system_monitor.py:start():183] Starting system monitor
+2023-09-05 18:18:36,986 INFO    SystemMonitor:56778 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-09-05 18:18:36,987 INFO    HandlerThread:56778 [system_monitor.py:probe():204] Collecting system info
+2023-09-05 18:18:36,988 DEBUG   HandlerThread:56778 [system_info.py:probe():195] Probing system
+2023-09-05 18:18:36,988 INFO    SystemMonitor:56778 [interfaces.py:start():187] Started cpu monitoring
+2023-09-05 18:18:36,990 INFO    SystemMonitor:56778 [interfaces.py:start():187] Started disk monitoring
+2023-09-05 18:18:36,990 INFO    SystemMonitor:56778 [interfaces.py:start():187] Started memory monitoring
+2023-09-05 18:18:36,991 INFO    SystemMonitor:56778 [interfaces.py:start():187] Started network monitoring
+2023-09-05 18:18:36,993 DEBUG   HandlerThread:56778 [system_info.py:_probe_git():180] Probing git
+2023-09-05 18:18:37,055 DEBUG   HandlerThread:56778 [system_info.py:_probe_git():188] Probing git done
+2023-09-05 18:18:37,056 DEBUG   HandlerThread:56778 [system_info.py:probe():240] Probing system done
+2023-09-05 18:18:37,056 DEBUG   HandlerThread:56778 [system_monitor.py:probe():213] {'os': 'macOS-13.5.1-x86_64-i386-64bit', 'python': '3.10.10', 'heartbeatAt': '2023-09-05T16:18:36.988538', 'startedAt': '2023-09-05T16:18:36.258712', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/main.py', 'codePath': 'workspace/Genetics/main.py', 'git': {'remote': 'https://github.com/hugo-romero-mm/catedra-uc3m-sementacion.git', 'commit': '34c404899dea80d28fabfd21aacfce45e9e44f50'}, 'email': '114697825+hugo-romero-mm@users.noreply.github.com', 'root': '/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion', 'host': 'MacBook-Pro-de-Hugo.local', 'username': 'hugoromero', 'executable': '/Users/hugoromero/anaconda3/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2600, 'min': 2600, 'max': 2600}, 'cpu_freq_per_core': [{'current': 2600, 'min': 2600, 'max': 2600}], 'disk': {'total': 233.46913528442383, 'used': 161.6660385131836}, 'memory': {'total': 16.0}}
+2023-09-05 18:18:37,057 INFO    HandlerThread:56778 [system_monitor.py:probe():214] Finished collecting system info
+2023-09-05 18:18:37,057 INFO    HandlerThread:56778 [system_monitor.py:probe():217] Publishing system info
+2023-09-05 18:18:37,057 DEBUG   HandlerThread:56778 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-05 18:18:37,059 DEBUG   HandlerThread:56778 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-05 18:18:37,059 DEBUG   HandlerThread:56778 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-05 18:18:37,888 INFO    Thread-357:56778 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/requirements.txt
+2023-09-05 18:18:37,888 INFO    Thread-357:56778 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:18:37,888 INFO    Thread-357:56778 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/conda-environment.yaml
+2023-09-05 18:18:42,184 DEBUG   HandlerThread:56778 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-05 18:18:42,185 INFO    HandlerThread:56778 [system_monitor.py:probe():219] Finished publishing system info
+2023-09-05 18:18:42,185 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:18:42,185 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-05 18:18:42,186 DEBUG   SenderThread:56778 [sender.py:send():336] send: files
+2023-09-05 18:18:42,186 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-09-05 18:18:42,201 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:18:42,201 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:18:42,480 DEBUG   SenderThread:56778 [sender.py:send():336] send: telemetry
+2023-09-05 18:18:42,736 INFO    wandb-upload_0:56778 [upload_job.py:push():138] Uploaded file /var/folders/_n/k9v7fs012jb8j6x25vn_6gyw0000gn/T/tmpi_h5f57awandb/gn3r6tcl-wandb-metadata.json
+2023-09-05 18:18:42,889 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/conda-environment.yaml
+2023-09-05 18:18:42,897 INFO    Thread-357:56778 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-metadata.json
+2023-09-05 18:18:42,898 INFO    Thread-357:56778 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:18:44,897 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:18:47,139 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:18:52,880 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:18:52,920 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:18:54,926 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:18:56,933 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:18:57,206 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:18:57,206 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:18:58,580 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:18:58,939 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:03,600 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:08,613 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:08,964 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/config.yaml
+2023-09-05 18:19:12,564 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:19:12,564 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:19:14,769 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:19,947 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:20,991 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:23,001 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:25,009 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:25,781 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:27,015 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:27,351 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:19:27,351 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:19:29,023 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:31,541 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:34,776 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:19:34,778 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:19:34,778 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:19:34,779 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:19:35,036 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:19:36,991 DEBUG   SystemMonitor:56778 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-09-05 18:19:36,993 DEBUG   SenderThread:56778 [sender.py:send():336] send: stats
+2023-09-05 18:19:36,994 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:37,046 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:39,052 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:41,055 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:42,120 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:42,148 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:19:42,149 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:19:42,149 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:19:42,149 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:19:42,375 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:19:42,375 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:19:43,061 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:19:43,061 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:45,067 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:47,071 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:47,150 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:48,462 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:19:48,463 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:19:48,463 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:19:48,464 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:19:49,075 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:19:49,075 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:51,081 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:52,171 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:53,089 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:54,641 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:19:54,643 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:19:54,643 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:19:54,644 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:19:55,096 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:19:55,096 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:57,100 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:19:57,358 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:19:57,389 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:19:57,390 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:19:59,103 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:01,106 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:01,195 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:01,196 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:01,196 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:01,197 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:02,107 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:02,554 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:03,110 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:05,113 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:06,575 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:06,576 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:06,576 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:06,577 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:06,996 DEBUG   SenderThread:56778 [sender.py:send():336] send: stats
+2023-09-05 18:20:07,117 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:07,117 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:07,598 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:09,118 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:09,880 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:09,881 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:09,881 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:09,881 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:10,120 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:11,122 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:11,335 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:11,336 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:11,336 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:11,337 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:11,929 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:11,930 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:11,930 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:11,930 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,036 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,037 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,037 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,038 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,126 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,126 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,127 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,127 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:12,127 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,247 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,247 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,248 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,248 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,286 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,286 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,287 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,288 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,337 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,338 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,338 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,338 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,393 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:20:12,393 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:20:12,409 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,411 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,449 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,515 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,548 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,620 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,775 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,776 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,776 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:12,776 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,777 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,777 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,778 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,778 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,779 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,779 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,779 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,779 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,780 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,780 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,780 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,781 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,781 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,781 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,781 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,819 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,820 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,820 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,821 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:12,955 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:12,956 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:12,956 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:12,956 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:13,125 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:13,125 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:13,126 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:13,126 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:13,132 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:13,132 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:13,273 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:13,273 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:13,274 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:13,274 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:13,313 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:13,313 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:13,314 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:13,314 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:13,862 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:13,864 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:13,865 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:13,865 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:14,083 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:14,084 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:14,084 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:14,085 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:14,136 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:14,225 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:14,226 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:14,226 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:14,227 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:14,444 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:14,445 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:14,445 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:14,446 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:14,566 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:14,567 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:14,567 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:14,567 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:14,626 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:14,627 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:14,627 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:14,628 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:14,926 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:14,927 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:14,928 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:14,929 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:15,139 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:15,139 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:15,370 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:15,371 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:15,372 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:15,372 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:16,074 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:16,075 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:16,075 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:16,076 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:16,146 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:16,925 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:16,926 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:16,927 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:16,928 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:17,148 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:17,148 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:17,897 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:18,363 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:18,364 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:18,364 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:18,365 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:19,154 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:19,154 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:19,420 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:19,421 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:19,421 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:19,422 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:20,157 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:21,031 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:21,032 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:21,032 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:21,033 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:21,159 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:21,159 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:21,596 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:21,597 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:21,598 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:21,598 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:21,743 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:21,744 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:21,744 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:21,745 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:22,161 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:22,185 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:22,186 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:22,186 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:22,187 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:22,194 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:22,194 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:22,195 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:22,195 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:22,219 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:22,220 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:22,220 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:22,220 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:22,317 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:22,318 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:22,318 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:22,319 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:22,521 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:22,522 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:22,522 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:22,523 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:22,586 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:22,588 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:22,588 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:22,589 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:22,838 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:22,839 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:22,839 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:22,839 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:22,974 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:23,162 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:23,163 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:23,168 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:23,169 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:23,169 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:23,170 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:23,621 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:23,621 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:23,622 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:23,622 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:23,820 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:23,820 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:23,821 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:23,821 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:24,030 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:24,031 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:24,031 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:24,032 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:24,167 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:24,211 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:24,212 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:24,212 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:24,213 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:24,486 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:24,486 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:24,487 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:24,487 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:25,168 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:25,168 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:25,182 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:25,183 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:25,184 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:25,185 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:25,966 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:25,967 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:25,987 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:25,988 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:26,010 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:26,011 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:26,011 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:26,012 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:26,169 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:26,353 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:26,354 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:26,354 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:26,355 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:26,403 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:26,404 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:26,404 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:26,405 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:27,169 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:27,170 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:27,270 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:27,271 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:27,271 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:27,272 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:27,409 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:20:27,409 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:20:27,439 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:27,720 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:27,720 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:27,720 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:28,023 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:28,038 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:28,039 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:28,039 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:28,039 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:28,170 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:28,313 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:28,314 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:28,314 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:28,315 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:28,815 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:28,816 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:28,816 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:28,816 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:29,037 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:29,038 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:29,038 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:29,039 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:29,174 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:29,174 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:29,418 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:29,418 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:29,418 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:29,419 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:29,833 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:29,834 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:29,834 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:29,834 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:30,178 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:30,225 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:30,226 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:30,226 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:30,227 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:30,257 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:30,258 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:30,258 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:30,259 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:30,626 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:30,627 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:30,627 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:30,628 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:31,178 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:31,179 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:31,293 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:31,294 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:31,294 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:31,295 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:31,514 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:31,515 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:31,515 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:31,516 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:31,881 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:31,882 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:31,882 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:31,883 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:32,001 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:32,002 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:32,002 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:32,002 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:32,107 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:32,107 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:32,108 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:32,108 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:32,161 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:32,162 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:32,162 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:32,163 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:32,182 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:32,506 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:32,507 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:32,507 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:32,508 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:32,545 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:32,546 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:32,546 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:32,547 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:32,783 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:32,784 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:32,784 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:32,784 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:33,091 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:33,187 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:33,187 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:33,205 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:33,206 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:33,207 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:33,207 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:33,677 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:33,678 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:33,678 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:33,678 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:33,780 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:33,780 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:33,780 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:33,781 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:34,176 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:34,177 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:34,177 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:34,177 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:34,192 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:34,357 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:34,358 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:34,358 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:34,359 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:34,601 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:34,601 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:34,602 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:34,602 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:34,930 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:34,933 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:34,933 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:34,933 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:35,028 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:35,028 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:35,029 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:35,029 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:35,194 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:35,194 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:35,684 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:35,684 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:35,684 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:35,685 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:35,781 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:35,781 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:35,782 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:35,782 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:36,102 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:36,103 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:36,103 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:36,103 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:36,196 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:36,415 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:36,416 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:36,416 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:36,418 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:36,849 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:36,850 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:36,850 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:36,851 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:36,910 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:36,911 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:36,911 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:36,912 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:36,997 DEBUG   SenderThread:56778 [sender.py:send():336] send: stats
+2023-09-05 18:20:37,115 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:37,116 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:37,116 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:37,117 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:37,172 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:37,173 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:37,173 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:37,173 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:37,198 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:37,198 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:37,465 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:37,466 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:37,467 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:37,467 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:37,822 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:37,823 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:37,823 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:37,824 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:38,198 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:38,329 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:39,198 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:39,272 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:39,273 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:39,273 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:39,273 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:39,989 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:39,991 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:39,991 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:39,993 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:40,201 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:40,742 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:40,743 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:40,743 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:40,744 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:41,204 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:41,204 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:41,376 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:41,377 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:41,378 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:41,379 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:41,711 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:41,712 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:41,712 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:41,713 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:41,735 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:41,736 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:41,736 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:41,737 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:41,793 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:41,794 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:41,795 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:41,796 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:42,026 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:42,027 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:42,027 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:42,028 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:42,205 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:42,418 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:20:42,419 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:20:42,998 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:42,999 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:42,999 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:42,999 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:43,207 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:43,208 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:43,220 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:43,221 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:43,221 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:43,221 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:43,310 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:43,311 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:43,311 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:43,311 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:43,382 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:43,764 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:43,764 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:43,765 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:43,766 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:43,787 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:43,788 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:43,788 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:43,789 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:44,136 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:44,137 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:44,137 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:44,137 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:44,211 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:44,827 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:44,828 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:44,828 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:44,829 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:45,002 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:45,003 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:45,003 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:45,004 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:45,214 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:45,215 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:45,413 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:45,414 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:45,415 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:45,416 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:46,051 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:46,052 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:46,052 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:46,053 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:46,215 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:46,408 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:46,409 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:46,409 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:46,410 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:46,464 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:46,465 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:46,465 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:46,466 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:46,681 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:46,689 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:46,691 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:46,691 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:46,695 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:46,696 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:46,696 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:46,697 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:46,764 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:46,764 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:46,764 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:46,765 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:47,215 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:47,215 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:47,541 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:47,542 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:47,542 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:47,543 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:47,601 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:47,604 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:47,604 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:47,605 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:47,908 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:47,909 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:47,909 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:47,910 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:48,220 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:48,508 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:48,809 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:48,810 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:48,810 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:48,811 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:49,223 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:49,223 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:50,049 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:50,050 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:50,050 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:50,050 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:50,224 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:50,597 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:50,598 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:50,599 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:50,600 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:50,629 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:50,631 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:50,631 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:50,631 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:50,638 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:50,639 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:50,639 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:50,640 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:50,700 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:50,701 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:50,702 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:50,703 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:51,229 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:51,229 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:51,338 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:51,339 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:51,339 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:51,340 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:52,161 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:52,161 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:52,162 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:52,163 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:52,229 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:52,991 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:52,992 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:52,992 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:52,992 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:53,192 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:53,193 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:53,193 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:53,194 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:53,232 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:53,233 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:53,234 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:53,234 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:53,235 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:53,235 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:53,557 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:53,558 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:53,558 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:53,559 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:53,559 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:53,730 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:53,731 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:53,731 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:53,732 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:53,777 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:53,778 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:53,778 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:53,778 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:54,068 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:54,069 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:54,069 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:54,070 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:54,134 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:54,135 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:54,135 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:54,136 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:54,156 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:54,157 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:54,158 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:54,158 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:54,230 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:54,231 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:54,231 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:54,232 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:54,239 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:54,309 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:54,310 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:54,311 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:54,312 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:54,381 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:54,382 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:54,382 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:54,383 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:55,155 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:55,155 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:55,156 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:55,156 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:55,244 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:55,244 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:55,264 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:55,265 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:55,265 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:55,266 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:55,856 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:55,856 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:55,857 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:55,857 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:56,245 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:56,680 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:56,681 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:56,681 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:56,682 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:57,248 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:57,249 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:57,434 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:20:57,435 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:20:57,622 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:57,822 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:57,822 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:57,823 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:58,240 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:58,241 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:58,241 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:58,241 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:58,251 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:58,618 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:20:58,746 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:58,748 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:58,748 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:58,749 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:58,902 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:58,903 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:58,903 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:58,904 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:59,254 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:20:59,254 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:20:59,503 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:59,504 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:59,504 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:59,505 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:59,711 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:59,712 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:59,712 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:59,713 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:59,781 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:59,781 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:59,781 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:59,782 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:20:59,968 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:20:59,969 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:20:59,969 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:20:59,969 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:00,077 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:00,078 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:00,079 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:00,080 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:00,257 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:00,330 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:00,331 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:00,331 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:00,332 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:00,630 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:00,631 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:00,632 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:00,632 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:01,257 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:01,258 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:01,326 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:01,327 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:01,327 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:01,328 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:01,562 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:01,563 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:01,563 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:01,564 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:01,979 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:01,980 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:01,980 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:01,981 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:02,258 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:02,272 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:02,273 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:02,273 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:02,273 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:02,318 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:02,319 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:02,319 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:02,320 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:03,062 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:03,062 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:03,063 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:03,063 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:03,258 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:03,258 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:03,634 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:21:03,836 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:03,837 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:03,837 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:03,838 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:04,258 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:04,428 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:04,429 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:04,429 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:04,430 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:04,753 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:04,754 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:04,754 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:04,755 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:05,259 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:05,259 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:05,378 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:05,379 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:05,379 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:05,380 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:05,745 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:05,745 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:05,746 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:05,746 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:05,981 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:05,982 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:05,982 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:05,983 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:06,027 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:06,028 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:06,028 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:06,029 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:06,264 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:06,317 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:06,329 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:06,329 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:06,330 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:06,807 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:06,808 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:06,809 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:06,809 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:06,880 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:06,881 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:06,881 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:06,882 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:06,998 DEBUG   SenderThread:56778 [sender.py:send():336] send: stats
+2023-09-05 18:21:07,265 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:07,266 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:07,443 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:07,444 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:07,444 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:07,445 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:07,503 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:07,504 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:07,504 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:07,505 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:07,738 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:07,739 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:07,739 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:07,739 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:07,858 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:07,859 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:07,859 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:07,860 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:08,073 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:08,074 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:08,074 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:08,075 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:08,266 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:08,762 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:21:09,267 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:09,268 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:09,268 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:09,269 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:09,270 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:09,270 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:09,996 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:09,997 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:09,998 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:09,999 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:10,272 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:10,338 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:10,339 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:10,339 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:10,340 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:10,838 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:10,839 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:10,839 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:10,840 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:11,273 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:11,273 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:11,353 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:11,354 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:11,354 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:11,356 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:11,812 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:11,813 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:11,813 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:11,813 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:11,832 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:11,832 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:11,833 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:11,833 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:11,866 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:11,866 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:11,867 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:11,867 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:11,927 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:11,928 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:11,928 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:11,929 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:12,278 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:12,419 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-05 18:21:12,419 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: stop_status
+2023-09-05 18:21:12,465 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:12,773 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:12,773 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:12,773 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:12,849 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:12,849 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:12,849 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:12,850 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:13,021 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:13,022 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:13,023 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:13,023 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:13,070 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:13,071 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:13,071 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:13,071 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:13,183 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:13,183 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:13,184 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:13,184 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:13,279 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:13,279 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:13,311 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:13,311 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:13,312 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:13,312 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:13,502 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:13,503 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:13,503 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:13,504 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:13,691 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:13,692 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:13,692 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:13,693 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:13,770 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:21:13,771 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:13,771 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:13,771 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:13,772 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:13,921 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:13,922 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:13,922 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:13,923 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:14,283 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:14,296 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:14,297 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:14,297 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:14,298 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:14,395 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:14,396 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:14,396 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:14,397 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:14,857 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:14,857 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:14,858 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:14,858 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:15,284 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:15,285 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:15,526 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: log_artifact
+2023-09-05 18:21:15,527 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: log_artifact
+2023-09-05 18:21:15,542 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:15,716 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: log_artifact
+2023-09-05 18:21:15,727 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:15,907 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: log_artifact
+2023-09-05 18:21:15,918 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-05 18:21:16,290 INFO    Thread-357:56778 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/media/table/Best fenotype table_200_9af72b210a77b28507b4.table.json
+2023-09-05 18:21:16,290 INFO    Thread-357:56778 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/media/table/Convergence_table_202_93db7d69dbe5e42ec7a2.table.json
+2023-09-05 18:21:16,290 INFO    Thread-357:56778 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/media/table/Hyperparameters_201_6ee7fb753455bc418d63.table.json
+2023-09-05 18:21:16,291 INFO    Thread-357:56778 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/media
+2023-09-05 18:21:16,291 INFO    Thread-357:56778 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/media/table
+2023-09-05 18:21:16,737 INFO    wandb-upload_0:56778 [upload_job.py:push():138] Uploaded file /var/folders/_n/k9v7fs012jb8j6x25vn_6gyw0000gn/T/tmpi_h5f57awandb/npdanb88-media/table/Best fenotype table_200_9af72b210a77b28507b4.table.json
+2023-09-05 18:21:16,837 INFO    wandb-upload_2:56778 [upload_job.py:push():138] Uploaded file /var/folders/_n/k9v7fs012jb8j6x25vn_6gyw0000gn/T/tmpi_h5f57awandb/49s1osun-media/table/Hyperparameters_201_6ee7fb753455bc418d63.table.json
+2023-09-05 18:21:16,850 INFO    wandb-upload_1:56778 [upload_job.py:push():138] Uploaded file /var/folders/_n/k9v7fs012jb8j6x25vn_6gyw0000gn/T/tmpi_h5f57awandb/x5jo2jeq-media/table/Convergence_table_202_93db7d69dbe5e42ec7a2.table.json
+2023-09-05 18:21:16,923 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-05 18:21:16,955 INFO    wandb-upload_3:56778 [upload_job.py:push():96] Uploaded file /Users/hugoromero/Library/Application Support/wandb/artifacts/staging/tmpbhmbzufc
+2023-09-05 18:21:17,293 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:18,041 INFO    SenderThread:56778 [sender.py:send_request_log_artifact():1392] logged artifact run-f5qq7fnl-Bestfenotypetable - {'id': 'QXJ0aWZhY3Q6NTU5OTEwNjYw', 'digest': '2dc1be6e1d137ed3363d26aa949c2864', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjk1MTg1MjI1', 'latestArtifact': None}, 'version': 'latest'}
+2023-09-05 18:21:18,042 DEBUG   SenderThread:56778 [sender.py:send():336] send: files
+2023-09-05 18:21:18,042 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file media/table/Best fenotype table_200_9af72b210a77b28507b4.table.json with policy now
+2023-09-05 18:21:18,042 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:18,042 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:18,043 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:18,043 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: log_artifact
+2023-09-05 18:21:18,297 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:18,610 INFO    wandb-upload_0:56778 [upload_job.py:push():138] Uploaded file /var/folders/_n/k9v7fs012jb8j6x25vn_6gyw0000gn/T/tmpi_h5f57awandb/xxsj5l27-media/table/Best fenotype table_200_9af72b210a77b28507b4.table.json
+2023-09-05 18:21:19,427 INFO    wandb-upload_1:56778 [upload_job.py:push():96] Uploaded file /Users/hugoromero/Library/Application Support/wandb/artifacts/staging/tmpz3xpe_tu
+2023-09-05 18:21:20,451 INFO    SenderThread:56778 [sender.py:send_request_log_artifact():1392] logged artifact run-f5qq7fnl-Hyperparameters - {'id': 'QXJ0aWZhY3Q6NTU5OTEwNjg3', 'digest': '0bc86ea2dfe8b1831265c536e99bb6b2', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjk1MTg1MjMz', 'latestArtifact': None}, 'version': 'latest'}
+2023-09-05 18:21:20,451 DEBUG   SenderThread:56778 [sender.py:send():336] send: files
+2023-09-05 18:21:20,451 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file media/table/Hyperparameters_201_6ee7fb753455bc418d63.table.json with policy now
+2023-09-05 18:21:20,452 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:21:20,452 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:20,452 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:20,453 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:20,453 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: log_artifact
+2023-09-05 18:21:21,143 INFO    wandb-upload_2:56778 [upload_job.py:push():138] Uploaded file /var/folders/_n/k9v7fs012jb8j6x25vn_6gyw0000gn/T/tmpi_h5f57awandb/auzp8h7p-media/table/Hyperparameters_201_6ee7fb753455bc418d63.table.json
+2023-09-05 18:21:21,308 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:21,931 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-05 18:21:21,986 INFO    wandb-upload_3:56778 [upload_job.py:push():96] Uploaded file /Users/hugoromero/Library/Application Support/wandb/artifacts/staging/tmp6pg91lxq
+2023-09-05 18:21:23,011 INFO    SenderThread:56778 [sender.py:send_request_log_artifact():1392] logged artifact run-f5qq7fnl-Convergence_table - {'id': 'QXJ0aWZhY3Q6NTU5OTEwNzEx', 'digest': '884355f636088cd9e55967ef7ea2a89b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjk1MTg1MjQ2', 'latestArtifact': None}, 'version': 'latest'}
+2023-09-05 18:21:23,011 DEBUG   SenderThread:56778 [sender.py:send():336] send: files
+2023-09-05 18:21:23,011 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file media/table/Convergence_table_202_93db7d69dbe5e42ec7a2.table.json with policy now
+2023-09-05 18:21:23,012 DEBUG   SenderThread:56778 [sender.py:send():336] send: history
+2023-09-05 18:21:23,012 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: summary_record
+2023-09-05 18:21:23,013 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:23,013 DEBUG   SenderThread:56778 [sender.py:send():336] send: telemetry
+2023-09-05 18:21:23,014 DEBUG   SenderThread:56778 [sender.py:send():336] send: exit
+2023-09-05 18:21:23,014 INFO    SenderThread:56778 [sender.py:send_exit():559] handling exit code: 0
+2023-09-05 18:21:23,014 INFO    SenderThread:56778 [sender.py:send_exit():561] handling runtime: 158
+2023-09-05 18:21:23,014 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:23,015 INFO    SenderThread:56778 [sender.py:send_exit():567] send defer
+2023-09-05 18:21:23,015 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: poll_exit
+2023-09-05 18:21:23,015 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:23,015 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-05 18:21:23,016 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:23,016 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-09-05 18:21:23,016 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 1
+2023-09-05 18:21:23,016 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:23,016 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-05 18:21:23,018 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:23,018 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-09-05 18:21:23,018 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 2
+2023-09-05 18:21:23,018 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:23,018 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-05 18:21:23,019 INFO    HandlerThread:56778 [system_monitor.py:finish():193] Stopping system monitor
+2023-09-05 18:21:23,037 DEBUG   SystemMonitor:56778 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-09-05 18:21:23,037 DEBUG   SystemMonitor:56778 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-09-05 18:21:23,038 INFO    HandlerThread:56778 [interfaces.py:finish():199] Joined cpu monitor
+2023-09-05 18:21:23,038 INFO    HandlerThread:56778 [interfaces.py:finish():199] Joined disk monitor
+2023-09-05 18:21:23,039 INFO    HandlerThread:56778 [interfaces.py:finish():199] Joined memory monitor
+2023-09-05 18:21:23,039 INFO    HandlerThread:56778 [interfaces.py:finish():199] Joined network monitor
+2023-09-05 18:21:23,039 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:23,039 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-09-05 18:21:23,039 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 3
+2023-09-05 18:21:23,039 DEBUG   SenderThread:56778 [sender.py:send():336] send: stats
+2023-09-05 18:21:23,040 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:23,040 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-05 18:21:23,040 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:23,040 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-09-05 18:21:23,040 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 4
+2023-09-05 18:21:23,040 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:23,040 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-05 18:21:23,041 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:23,041 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-09-05 18:21:23,041 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 5
+2023-09-05 18:21:23,041 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:23,041 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-05 18:21:23,042 DEBUG   SenderThread:56778 [sender.py:send():336] send: summary
+2023-09-05 18:21:23,042 INFO    SenderThread:56778 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-09-05 18:21:23,042 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:23,042 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-09-05 18:21:23,043 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 6
+2023-09-05 18:21:23,043 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:23,043 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-05 18:21:23,043 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:23,043 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-09-05 18:21:23,047 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: status_report
+2023-09-05 18:21:23,310 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:23,339 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 7
+2023-09-05 18:21:23,339 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:23,339 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-05 18:21:23,340 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:23,340 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-09-05 18:21:23,725 INFO    wandb-upload_0:56778 [upload_job.py:push():138] Uploaded file /var/folders/_n/k9v7fs012jb8j6x25vn_6gyw0000gn/T/tmpi_h5f57awandb/a11s63iv-media/table/Convergence_table_202_93db7d69dbe5e42ec7a2.table.json
+2023-09-05 18:21:24,316 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/config.yaml
+2023-09-05 18:21:24,781 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 8
+2023-09-05 18:21:24,781 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:24,781 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-05 18:21:24,782 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:24,782 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-09-05 18:21:24,791 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 9
+2023-09-05 18:21:24,792 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:24,792 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-05 18:21:24,792 DEBUG   SenderThread:56778 [sender.py:send():336] send: artifact
+2023-09-05 18:21:25,317 INFO    Thread-357:56778 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:26,286 INFO    wandb-upload_1:56778 [upload_job.py:push():96] Uploaded file /Users/hugoromero/Library/Application Support/wandb/artifacts/staging/tmpv_6mtpto
+2023-09-05 18:21:26,286 INFO    wandb-upload_3:56778 [upload_job.py:push():96] Uploaded file /Users/hugoromero/Library/Application Support/wandb/artifacts/staging/tmp5whd1zw5
+2023-09-05 18:21:26,944 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-05 18:21:27,825 INFO    SenderThread:56778 [sender.py:send_artifact():1428] sent artifact job-https___github.com_hugo-romero-mm_catedra-uc3m-sementacion.git_workspace_Genetics_main.py - {'id': 'QXJ0aWZhY3Q6NTU5OTEwNzUw', 'digest': 'cd96c77bd98f8b7f4f5deaca6430be84', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjk1MTg1Mjcx', 'latestArtifact': None}, 'version': 'latest'}
+2023-09-05 18:21:27,825 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:27,825 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-09-05 18:21:27,825 INFO    SenderThread:56778 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-09-05 18:21:28,327 INFO    SenderThread:56778 [dir_watcher.py:finish():395] scan: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files
+2023-09-05 18:21:28,328 INFO    SenderThread:56778 [dir_watcher.py:finish():409] scan save: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/requirements.txt requirements.txt
+2023-09-05 18:21:28,328 INFO    SenderThread:56778 [dir_watcher.py:finish():409] scan save: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log output.log
+2023-09-05 18:21:28,331 INFO    SenderThread:56778 [dir_watcher.py:finish():409] scan save: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/config.yaml config.yaml
+2023-09-05 18:21:28,334 INFO    SenderThread:56778 [dir_watcher.py:finish():409] scan save: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json wandb-summary.json
+2023-09-05 18:21:28,337 INFO    SenderThread:56778 [dir_watcher.py:finish():409] scan save: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/conda-environment.yaml conda-environment.yaml
+2023-09-05 18:21:28,338 INFO    SenderThread:56778 [dir_watcher.py:finish():409] scan save: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-metadata.json wandb-metadata.json
+2023-09-05 18:21:28,343 INFO    SenderThread:56778 [dir_watcher.py:finish():409] scan save: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/media/table/Best fenotype table_200_9af72b210a77b28507b4.table.json media/table/Best fenotype table_200_9af72b210a77b28507b4.table.json
+2023-09-05 18:21:28,344 INFO    SenderThread:56778 [dir_watcher.py:finish():409] scan save: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/media/table/Convergence_table_202_93db7d69dbe5e42ec7a2.table.json media/table/Convergence_table_202_93db7d69dbe5e42ec7a2.table.json
+2023-09-05 18:21:28,344 INFO    SenderThread:56778 [dir_watcher.py:finish():409] scan save: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/media/table/Hyperparameters_201_6ee7fb753455bc418d63.table.json media/table/Hyperparameters_201_6ee7fb753455bc418d63.table.json
+2023-09-05 18:21:28,344 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 10
+2023-09-05 18:21:28,344 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:28,344 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-05 18:21:28,345 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:28,345 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-09-05 18:21:28,346 INFO    SenderThread:56778 [file_pusher.py:finish():164] shutting down file pusher
+2023-09-05 18:21:28,805 INFO    wandb-upload_3:56778 [upload_job.py:push():138] Uploaded file /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/wandb-summary.json
+2023-09-05 18:21:28,826 INFO    wandb-upload_1:56778 [upload_job.py:push():138] Uploaded file /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/output.log
+2023-09-05 18:21:28,829 INFO    wandb-upload_2:56778 [upload_job.py:push():138] Uploaded file /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/config.yaml
+2023-09-05 18:21:28,946 INFO    wandb-upload_4:56778 [upload_job.py:push():138] Uploaded file /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/conda-environment.yaml
+2023-09-05 18:21:28,966 INFO    wandb-upload_0:56778 [upload_job.py:push():138] Uploaded file /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/files/requirements.txt
+2023-09-05 18:21:29,168 INFO    Thread-356 (_thread_body):56778 [sender.py:transition_state():587] send defer: 11
+2023-09-05 18:21:29,168 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:29,168 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-05 18:21:29,169 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:29,169 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-09-05 18:21:29,169 INFO    SenderThread:56778 [file_pusher.py:join():169] waiting for file pusher
+2023-09-05 18:21:29,170 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 12
+2023-09-05 18:21:29,170 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:29,170 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-05 18:21:29,170 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:29,170 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-09-05 18:21:29,331 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 13
+2023-09-05 18:21:29,331 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:29,331 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-05 18:21:29,331 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:29,331 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-09-05 18:21:29,332 INFO    SenderThread:56778 [sender.py:transition_state():587] send defer: 14
+2023-09-05 18:21:29,332 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: defer
+2023-09-05 18:21:29,332 INFO    HandlerThread:56778 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-05 18:21:29,332 DEBUG   SenderThread:56778 [sender.py:send():336] send: final
+2023-09-05 18:21:29,332 DEBUG   SenderThread:56778 [sender.py:send():336] send: footer
+2023-09-05 18:21:29,333 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: defer
+2023-09-05 18:21:29,333 INFO    SenderThread:56778 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-09-05 18:21:29,334 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-05 18:21:29,334 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: server_info
+2023-09-05 18:21:29,334 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-05 18:21:29,334 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-05 18:21:29,339 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: poll_exit
+2023-09-05 18:21:29,340 DEBUG   SenderThread:56778 [sender.py:send_request():363] send_request: server_info
+2023-09-05 18:21:29,505 DEBUG   HandlerThread:56778 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-05 18:21:29,505 INFO    HandlerThread:56778 [handler.py:finish():842] shutting down handler
+2023-09-05 18:21:30,343 INFO    WriterThread:56778 [datastore.py:close():298] close: /Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/Genetics/wandb/run-20230905_181836-f5qq7fnl/run-f5qq7fnl.wandb
+2023-09-05 18:21:30,506 INFO    SenderThread:56778 [sender.py:finish():1504] shutting down sender
+2023-09-05 18:21:30,506 INFO    SenderThread:56778 [file_pusher.py:finish():164] shutting down file pusher
+2023-09-05 18:21:30,506 INFO    SenderThread:56778 [file_pusher.py:join():169] waiting for file pusher
