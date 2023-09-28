@@ -1,0 +1,5 @@
+
+Generation 0/9
+[4mReloaded modules[24m: fitness_functions, genetic_dealer_pandas
+/Users/hugoromero/Documents/GitHub/catedra-uc3m-sementacion/workspace/main.py:50: DtypeWarning: Columns (4,42,56,57,60,79,97,114,124,126,155) have mixed types. Specify dtype option on import or set low_memory=False.
+  transaction_df = pd.read_csv(file[file_key])

@@ -12,14 +12,14 @@ class Dealer:
     def __init__(self, apriori_result: list, verbose=False, create_df=False):
         print("Creating apriori dealer...")
         self.result = apriori_result
-        #self.good_rules = self.get_good_rules(verbose=verbose, createDF=create_df)
+        self.good_rules = self.get_good_rules(verbose=verbose, createDF=create_df)
 
-        #self.itemsets_supports = dict()
-        #self.itemsets = self.get_itemsets()
+        self.itemsets_supports = dict()
+        self.itemsets = self.get_itemsets()
 
-        #self.large_itemsets = self.get_largest_itemsets()
-        #self.maximals = self.get_maximal_itemsets()
-        #self.maximals_supports = {str(i): self.itemsets_supports[str(i)] for i in self.maximals}
+        self.large_itemsets = self.get_largest_itemsets()
+        self.maximals = self.get_maximal_itemsets()
+        self.maximals_supports = {str(i): self.itemsets_supports[str(i)] for i in self.maximals}
 
     def get_itemsets(self):
         itemsets = []
@@ -47,7 +47,7 @@ class Dealer:
         maximals = [item for item in self.itemsets if str(item) not in contained]
         return maximals
 
-    def get_good_rules(self, good='yes_energia', verbose=False, createDF=False):
+    def get_good_rules(self, good='financia', verbose=False, createDF=False):
         import pandas as pd
         precedents = []
         consequents = []

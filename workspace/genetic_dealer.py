@@ -155,13 +155,13 @@ class GeneticDealer:
         best_fenotype = generation[bfi]
         gen_stats = [len(generation), fitnesses.mean(), str(best_fenotype) ,self.decode_fenotype(best_fenotype), fitnesses[bfi], lifts[bfi], fishers[bfi]]
         
-        wandb.log({"fitness mean": fitnesses.mean(), 
-                   "lift mean": lifts.mean(),
-                   "fisher mean": fishers.mean(),
-                   "fitness max": fitnesses.max(), 
-                   "lift min": lifts.min(),
-                   "lift max": lifts.max(),
-        })
+        # wandb.log({"fitness mean": fitnesses.mean(), 
+        #            "lift mean": lifts.mean(),
+        #            "fisher mean": fishers.mean(),
+        #            "fitness max": fitnesses.max(), 
+        #            "lift min": lifts.min(),
+        #            "lift max": lifts.max(),
+        # })
         decoded_best_fenotype = self.decode_fenotype(best_fenotype)
         if not hasattr(self, "wandb_table"):
             self.wandb_table = wandb.Table(columns = ["Best fenotype", "Fitness", "Fisher", "Lift"])

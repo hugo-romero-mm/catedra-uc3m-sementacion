@@ -3,6 +3,9 @@ from genetic_dealer import GeneticDealer
 import wandb
 from apyori_rome import apriori
 import os
+import re
+import time
+
 
 file = {
     1: "../inputs/cooked_groceries.csv",
@@ -10,10 +13,24 @@ file = {
 }
 
 def prepping_master_beta_faltafinanciacion(file):
+    directory = "../inputs"
+    pattern = r'master_beta_faltafinanciacion\d+\.csv'
+    
+    
     columns_to_use = ['provincia', 'edad', 'genero', 'renta_bruta_media', 'tipo_servicio', 'tipo_facturacion',
                       'tarifa_id', 'coste_tarifa', 'tipo_venta', 'operador_portabilidad', 'num_ventas', 'alarma',
-                      'servicios_adicionales', 'financia', 'energia']
-    transaction_df = pd.read_csv(file)
+                      'servicios_adicionales', 'energia', 'financia']
+    
+    filenames = [filename for filename in os.listdir(directory) if re.match(pattern, filename)]
+    print(filenames)
+    dfs = []  # List to store the individual dataframes
+    
+    for filename in filenames:
+        file_path = os.path.join(directory, filename)
+        df = pd.read_csv(file_path)
+        dfs.append(df)
+    
+    transaction_df = pd.concat(dfs, ignore_index=True)
     transaction_df.drop_duplicates(keep='first', subset=["customer_id"], inplace=True)
     transaction_df.reset_index(inplace=True)
     transaction_df = transaction_df[columns_to_use]
@@ -22,10 +39,10 @@ def prepping_master_beta_faltafinanciacion(file):
 
 if __name__ == "__main__":
     ### ------------------ Tuneable
-    file_key = 1
+    file_key = 2
     ### ------------------ HIPERPARÁMETROS
-    consequent = "beef"
-    consequent_value = "beef"
+    consequent = "energia"
+    consequent_value = "energia"
     seed = 43
 
     ### ------------------ Lógica del programa y logging
@@ -38,7 +55,7 @@ if __name__ == "__main__":
         "seed": 43,
         "min_support": .01,
         "min_confidence": .02,
-        "min_lift": 1.25,
+        "min_lift": 1.1,
     }
     # wandb.init(
     #     # set the wandb project where this run will be logged
@@ -46,9 +63,15 @@ if __name__ == "__main__":
     #     # track hyper-parameters and run metadata
     #     config=config
     # )
-    transactions = transaction_df.sample(frac = .02)
+    
+    start = time.time()
+    
+    transactions = transaction_df.sample(frac = .00005)
+    print("DATASET TAMAÑO: ",len(transactions))
     dealer = apriori(transactions, min_support=config["min_support"], min_confidence=config["min_confidence"], min_lift=config["min_lift"], verbose=True, createDF=True)
     df = dealer.good_rules_df
+    
+    print(f"Execution took {time.time()- start} seconds ")
 
     #wandb.log({"Best fenotype table": d.wandb_table})
     hyperparameter_table = wandb.Table(data=[list(config.values())], columns=list(config.keys()))
